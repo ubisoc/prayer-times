@@ -10,15 +10,12 @@
 
 .wrapper {
 	position: absolute;
-	top: 40px;
-	left: 40px;
 	width: 700px;
 	height: 875	px;
-	border: 1px solid #000;
 	text-transform: uppercase;
 	font-family: 'Titillium Web', sans-serif;
 	color: #fff;
-	padding: 10px 40px;
+	padding: 0 40px 10px 40px;
 
 
 /*background: #808080; /* fallback for old browsers 
@@ -32,9 +29,19 @@ background: linear-gradient(to left, #2C3E50 , #4CA1AF); /* W3C, IE 10+/ Edge, F
            
 }
 
+.top {
+	background-color: #191d30;
+	padding: 20px 30px;
+	width: 400px;
+	margin: 0 auto 35px auto;
+	border-radius: 0 0 4px 4px;
+	border-bottom: 3px solid #fff;
+}
+
 .text-logo {
 	text-align: center;
 	font-size: 14px;
+	margin-top: 0;
 }
 
 .title {
@@ -48,7 +55,13 @@ background: linear-gradient(to left, #2C3E50 , #4CA1AF); /* W3C, IE 10+/ Edge, F
 	font-size: 22px;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 15px;
+}
+
+.jumuah {
+	color: #eaeaea;
+	text-transform: none;
+	text-align: center;
+	font-size: 11px;
 }
 
 table {
@@ -66,4 +79,14 @@ table > thead > tr > th, table > tbody > tr > td {
 
 table > tbody tr td {
 	padding: 5px !important;
+}
+
+table tr:nth-child(7n + 6) {
+	background-color: #fff;
+	color: #21263f;
+	border-left: 3px solid #21263f;
+}
+
+table tr:nth-child(7n + 6) td:last-child {
+	border-radius: 0 4px 4px 0;
 }
