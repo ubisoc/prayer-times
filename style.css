@@ -81,12 +81,12 @@ table > tbody tr td {
 	padding: 5px !important;
 }
 
-table tr:nth-child(7n + 6) {
+table tr:nth-child(7n + 3) {
 	background-color: #fff;
 	color: #21263f;
 	border-left: 3px solid #21263f;
 }
 
-table tr:nth-child(7n + 6) td:last-child {
+table tr:nth-child(7n + 3) td:last-child {
 	border-radius: 0 4px 4px 0;
 }
